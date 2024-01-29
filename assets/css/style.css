@@ -3042,3 +3042,24 @@ canvas {
       -ms-flex-align: center;
           align-items: center;
 }
+.st-header-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.st-header-hover li {
+  margin-right: 5px;
+}
+
+.st-header-hover li:not(:last-child):after {
+  content: '';
+}
+
+.st-header-hover li a:hover {
+  color: #fec544;
+}
